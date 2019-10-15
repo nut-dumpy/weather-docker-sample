@@ -15,3 +15,5 @@ Before creating docker images prepare [weatherstack.com](weatherstack.com) API k
 4. Run Nginx web server through shared network and bind port:
 	- `docker run --network weather --name weather-web -d -p 80:80 weather-web`
 5. Open [http://localhost:80](http://localhost:80)
+
+Or just use docker-composer via `docker-omposer up [-d]`.
