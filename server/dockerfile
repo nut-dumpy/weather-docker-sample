@@ -1,0 +1,10 @@
+FROM node:10
+RUN npm i -g yarn
+
+WORKDIR /usr/src/api
+COPY package.json .
+RUN yarn
+COPY . .
+EXPOSE 3001
+
+CMD ["yarn", "dev"]

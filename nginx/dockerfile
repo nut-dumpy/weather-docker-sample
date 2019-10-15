@@ -1,0 +1,8 @@
+FROM nginx
+
+WORKDIR /etc/nginx/
+COPY . .
+
+# CMD ["nginx"]
+
+EXPOSE 80

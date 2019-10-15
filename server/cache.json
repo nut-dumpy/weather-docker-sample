@@ -1,0 +1,262 @@
+{
+  "storage": [
+    {
+      "key": "2019/9/2/2:belarus, minsk",
+      "stored": 1571121673044,
+      "request": {
+        "type": "City",
+        "query": "Minsk, Belarus",
+        "language": "en",
+        "unit": "m"
+      },
+      "location": {
+        "name": "Minsk",
+        "country": "Belarus",
+        "region": "Minsk",
+        "lat": "53.900",
+        "lon": "27.567",
+        "timezone_id": "Europe/Minsk",
+        "localtime": "2019-10-15 09:38",
+        "localtime_epoch": 1571132280,
+        "utc_offset": "3.0"
+      },
+      "current": {
+        "observation_time": "06:38 AM",
+        "temperature": 6,
+        "weather_code": 143,
+        "weather_icons": [
+          "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+        ],
+        "weather_descriptions": [
+          "Mist"
+        ],
+        "wind_speed": 0,
+        "wind_degree": 0,
+        "wind_dir": "N",
+        "pressure": 1020,
+        "precip": 0,
+        "humidity": 100,
+        "cloudcover": 0,
+        "feelslike": 6,
+        "uv_index": 2,
+        "visibility": 8,
+        "is_day": "yes"
+      }
+    },
+    {
+      "key": "2019/9/2/2:canda",
+      "stored": 1571121687481,
+      "request": {
+        "type": "City",
+        "query": "Candawaga, Philippines",
+        "language": "en",
+        "unit": "m"
+      },
+      "location": {
+        "name": "Candawaga",
+        "country": "Philippines",
+        "region": "Palawan",
+        "lat": "8.862",
+        "lon": "117.489",
+        "timezone_id": "Asia/Manila",
+        "localtime": "2019-10-15 14:38",
+        "localtime_epoch": 1571150280,
+        "utc_offset": "8.0"
+      },
+      "current": {
+        "observation_time": "06:38 AM",
+        "temperature": 29,
+        "weather_code": 353,
+        "weather_icons": [
+          "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+        ],
+        "weather_descriptions": [
+          "Light rain shower"
+        ],
+        "wind_speed": 19,
+        "wind_degree": 72,
+        "wind_dir": "ENE",
+        "pressure": 1011,
+        "precip": 1.9,
+        "humidity": 71,
+        "cloudcover": 63,
+        "feelslike": 34,
+        "uv_index": 6,
+        "visibility": 10,
+        "is_day": "yes"
+      }
+    },
+    {
+      "key": "2019/9/2/2:canada",
+      "stored": 1571121690923,
+      "request": {
+        "type": "City",
+        "query": "Ottawa, Canada",
+        "language": "en",
+        "unit": "m"
+      },
+      "location": {
+        "name": "Ottawa",
+        "country": "Canada",
+        "region": "Ontario",
+        "lat": "45.417",
+        "lon": "-75.700",
+        "timezone_id": "America/Toronto",
+        "localtime": "2019-10-15 02:38",
+        "localtime_epoch": 1571107080,
+        "utc_offset": "-4.0"
+      },
+      "current": {
+        "observation_time": "06:38 AM",
+        "temperature": 3,
+        "weather_code": 116,
+        "weather_icons": [
+          "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+        ],
+        "weather_descriptions": [
+          "Partly cloudy"
+        ],
+        "wind_speed": 11,
+        "wind_degree": 220,
+        "wind_dir": "SW",
+        "pressure": 1017,
+        "precip": 0,
+        "humidity": 87,
+        "cloudcover": 25,
+        "feelslike": 0,
+        "uv_index": 0,
+        "visibility": 24,
+        "is_day": "no"
+      }
+    },
+    {
+      "key": "2019/9/2/2:canada, torrointo",
+      "stored": 1571121695601,
+      "request": {
+        "type": "City",
+        "query": "Canada, USA United States of America",
+        "language": "en",
+        "unit": "m"
+      },
+      "location": {
+        "name": "Canada",
+        "country": "USA United States of America",
+        "region": "Kentucky",
+        "lat": "37.598",
+        "lon": "-82.324",
+        "timezone_id": "America/New_York",
+        "localtime": "2019-10-15 02:38",
+        "localtime_epoch": 1571107080,
+        "utc_offset": "-4.0"
+      },
+      "current": {
+        "observation_time": "06:38 AM",
+        "temperature": 12,
+        "weather_code": 113,
+        "weather_icons": [
+          "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png"
+        ],
+        "weather_descriptions": [
+          "Clear"
+        ],
+        "wind_speed": 4,
+        "wind_degree": 159,
+        "wind_dir": "SSE",
+        "pressure": 1021,
+        "precip": 0,
+        "humidity": 81,
+        "cloudcover": 0,
+        "feelslike": 12,
+        "uv_index": 0,
+        "visibility": 10,
+        "is_day": "no"
+      }
+    },
+    {
+      "key": "2019/9/2/2:canada, torronto",
+      "stored": 1571121696744,
+      "request": {
+        "type": "City",
+        "query": "Canada, USA United States of America",
+        "language": "en",
+        "unit": "m"
+      },
+      "location": {
+        "name": "Canada",
+        "country": "USA United States of America",
+        "region": "Kentucky",
+        "lat": "37.598",
+        "lon": "-82.324",
+        "timezone_id": "America/New_York",
+        "localtime": "2019-10-15 02:40",
+        "localtime_epoch": 1571107200,
+        "utc_offset": "-4.0"
+      },
+      "current": {
+        "observation_time": "06:40 AM",
+        "temperature": 12,
+        "weather_code": 113,
+        "weather_icons": [
+          "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png"
+        ],
+        "weather_descriptions": [
+          "Clear"
+        ],
+        "wind_speed": 4,
+        "wind_degree": 159,
+        "wind_dir": "SSE",
+        "pressure": 1021,
+        "precip": 0,
+        "humidity": 81,
+        "cloudcover": 0,
+        "feelslike": 12,
+        "uv_index": 0,
+        "visibility": 10,
+        "is_day": "no"
+      }
+    },
+    {
+      "key": "2019/9/2/2:canada toronto",
+      "stored": 1571121717564,
+      "request": {
+        "type": "City",
+        "query": "Toronto, Canada",
+        "language": "en",
+        "unit": "m"
+      },
+      "location": {
+        "name": "Toronto",
+        "country": "Canada",
+        "region": "Ontario",
+        "lat": "43.667",
+        "lon": "-79.417",
+        "timezone_id": "America/Toronto",
+        "localtime": "2019-10-15 02:39",
+        "localtime_epoch": 1571107140,
+        "utc_offset": "-4.0"
+      },
+      "current": {
+        "observation_time": "06:39 AM",
+        "temperature": 9,
+        "weather_code": 116,
+        "weather_icons": [
+          "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+        ],
+        "weather_descriptions": [
+          "Partly cloudy"
+        ],
+        "wind_speed": 9,
+        "wind_degree": 280,
+        "wind_dir": "W",
+        "pressure": 1019,
+        "precip": 0,
+        "humidity": 62,
+        "cloudcover": 75,
+        "feelslike": 8,
+        "uv_index": 0,
+        "visibility": 14,
+        "is_day": "no"
+      }
+    }
+  ]
+}

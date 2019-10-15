@@ -1,0 +1,11 @@
+# vendor
+node_modules
+
+# build
+.next
+
+# ignore files
+.dockerignore
+.gitignore
+.git
+

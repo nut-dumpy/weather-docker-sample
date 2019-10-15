@@ -1,0 +1,15 @@
+FROM node:10
+RUN npm i -g yarn
+
+WORKDIR /usr/src/app
+COPY package.json .
+RUN yarn
+COPY . .
+RUN yarn build
+
+CMD [ "yarn", "start"]
+
+EXPOSE 3000
+
+
+
