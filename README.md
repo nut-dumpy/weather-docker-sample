@@ -16,4 +16,4 @@ Before creating docker images prepare [weatherstack.com](weatherstack.com) API k
 	- `docker run --network weather --name weather-web -d -p 80:80 weather-web`
 5. Open [http://localhost:80](http://localhost:80)
 
-Or just use docker-composer via `docker-omposer up [-d]`.
+Or just use docker-composer via `docker-compose up [-d]`.
