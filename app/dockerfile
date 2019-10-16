@@ -1,5 +1,4 @@
-FROM node:10
-RUN npm i -g yarn
+FROM mhart/alpine-node:10 AS build
 
 WORKDIR /usr/src/app
 COPY package.json .
@@ -7,9 +6,9 @@ RUN yarn
 COPY . .
 RUN yarn build
 
-CMD [ "yarn", "start"]
+# final app
+FROM mhart/alpine-node:10
+WORKDIR /usr/src/app
+COPY --from=build /usr/src/app .
 
-EXPOSE 3000
-
-
-
+CMD ["yarn", "dev"]
