@@ -7,8 +7,8 @@ RUN yarn
 COPY . .
 
 # final app
-FROM mhart/alpine-node:10
+FROM mhart/alpine-node:slim-10
 WORKDIR /usr/src/api
 COPY --from=build /usr/src/api .
 
-CMD ["yarn", "dev"]
+CMD ["node", "."]
