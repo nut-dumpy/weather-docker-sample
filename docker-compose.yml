@@ -6,13 +6,14 @@ services:
     build: nginx
     ports:
       - "80:80"
-  weather-front:
+  react:
     image: weather-frontend
     build: app
-    ports:
-      - "3000:3000"
-  weather-api:
+  node:
     image: weather-api
     build: server
-    ports:
-      - "3001:3001"
+    volumes:
+      - weather-cache:/usr/src/api/cache
+
+volumes:
+  weather-cache:

@@ -11,7 +11,7 @@ const { getKey, lowerCase } = require('./util')
 const access_key = process.env.ACCESS_KEY
 if (!access_key)
 	throw new Error('You need to acquire weatherstack API key to get weather data http://api.weatherstack.com');
-const port = +process.env.PORT || 3001
+const port = +process.env.PORT || 3000
 
 const cache = new Cache()
 

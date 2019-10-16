@@ -2,9 +2,11 @@ const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const { join } = require('path')
 
+const cachePath = join(__dirname, 'cache', 'weather.json')
+
 class Cache {
 	constructor() {
-		const adapter = new FileSync(join(__dirname, 'cache.json'))
+		const adapter = new FileSync(cachePath)
 		const db = low(adapter)
 		db.defaults({ storage: [] }).write()
 
